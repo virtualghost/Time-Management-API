@@ -1,24 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "D:\\client-backend\\Client-Backend.DataAccess\\Client-Backend.DataAccess.csproj": {}
+    "G:\\timemanagement\\Client-Backend.DataAccess\\Client-Backend.DataAccess.csproj": {}
   },
   "projects": {
-    "D:\\client-backend\\Client-Backend.DataAccess\\Client-Backend.DataAccess.csproj": {
+    "G:\\timemanagement\\Client-Backend.DataAccess\\Client-Backend.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\client-backend\\Client-Backend.DataAccess\\Client-Backend.DataAccess.csproj",
+        "projectUniqueName": "G:\\timemanagement\\Client-Backend.DataAccess\\Client-Backend.DataAccess.csproj",
         "projectName": "Client-Backend.DataAccess",
-        "projectPath": "D:\\client-backend\\Client-Backend.DataAccess\\Client-Backend.DataAccess.csproj",
-        "packagesPath": "C:\\Users\\l.dobrescu\\.nuget\\packages\\",
-        "outputPath": "D:\\client-backend\\Client-Backend.DataAccess\\obj\\",
+        "projectPath": "G:\\timemanagement\\Client-Backend.DataAccess\\Client-Backend.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\ghost\\.nuget\\packages\\",
+        "outputPath": "G:\\timemanagement\\Client-Backend.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "G:\\Microsoft\\Xamarin\\NuGet\\",
+          "c:\\program files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\l.dobrescu\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\ghost\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
@@ -30,8 +32,8 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "D:\\client-backend\\Client-Backend.Domain\\Client-Backend.Domain.csproj": {
-                "projectPath": "D:\\client-backend\\Client-Backend.Domain\\Client-Backend.Domain.csproj"
+              "G:\\timemanagement\\Client-Backend.Domain\\Client-Backend.Domain.csproj": {
+                "projectPath": "G:\\timemanagement\\Client-Backend.Domain\\Client-Backend.Domain.csproj"
               }
             }
           }
@@ -61,28 +63,36 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\client-backend\\Client-Backend.Domain\\Client-Backend.Domain.csproj": {
+    "G:\\timemanagement\\Client-Backend.Domain\\Client-Backend.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\client-backend\\Client-Backend.Domain\\Client-Backend.Domain.csproj",
+        "projectUniqueName": "G:\\timemanagement\\Client-Backend.Domain\\Client-Backend.Domain.csproj",
         "projectName": "Client-Backend.Domain",
-        "projectPath": "D:\\client-backend\\Client-Backend.Domain\\Client-Backend.Domain.csproj",
-        "packagesPath": "C:\\Users\\l.dobrescu\\.nuget\\packages\\",
-        "outputPath": "D:\\client-backend\\Client-Backend.Domain\\obj\\",
+        "projectPath": "G:\\timemanagement\\Client-Backend.Domain\\Client-Backend.Domain.csproj",
+        "packagesPath": "C:\\Users\\ghost\\.nuget\\packages\\",
+        "outputPath": "G:\\timemanagement\\Client-Backend.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "G:\\Microsoft\\Xamarin\\NuGet\\",
+          "c:\\program files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\l.dobrescu\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\ghost\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
@@ -121,10 +131,16 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
